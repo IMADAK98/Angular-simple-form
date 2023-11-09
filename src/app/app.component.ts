@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'assignment6-forms';
+
+
+  onLog(f:any){
+      console.log(f);
+      
+  }
 }
